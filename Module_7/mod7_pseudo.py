@@ -12,3 +12,6 @@ print(guesses)
 # compute the probability of winning little (all but one player guesses matches the random drawing)
 # randomly choose k from n, which represents the random drawing of values
 # compare results and declare: win big, win little, or sorry
+
+
+# probability_little = (binomial_coefficient(n, k-1) * (n - k + 1)) / binomial_coefficient(n, k)
