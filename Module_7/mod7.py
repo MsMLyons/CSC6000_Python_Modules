@@ -72,7 +72,7 @@ def lotto():
 
         # calculate the probability of winning little = hitting k-1 drawn numbers
         def probability_win_little(k, n):
-            partial_combinations = int(comb(k -1, n))
+            partial_combinations = int(comb(k - 1, n))            
             win_small = Fraction(1, partial_combinations)
             return win_small
         
