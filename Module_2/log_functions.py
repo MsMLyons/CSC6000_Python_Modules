@@ -22,3 +22,5 @@ print(b, "wow")
 c = bin(21)
 print(c[2:], "huh")
 
+
+

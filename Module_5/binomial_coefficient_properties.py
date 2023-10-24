@@ -6,6 +6,6 @@ def comb(k, n):
         ans *= (n - i) / (i + 1)
     return ans
 
-result = comb(3, 9)
+result = comb(3, 7)
 print("The result is ", result)
-# result --> The result is  84.0
+# result --> The result is  84.0 

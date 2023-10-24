@@ -39,6 +39,7 @@ def sum(k):
 
 sum(40)
 # result --> The sum of 1 to 20 is 210
+# The sum of 1 to 40 is 820 Excellent!
 
 def sum_1(k):
     print("The sum of 1 to", k, "is", (k * (k + 1)) // 2)
