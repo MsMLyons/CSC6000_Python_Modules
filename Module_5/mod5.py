@@ -39,6 +39,7 @@ def pascals_triangle():
     spacing = n - 1
 
     for row in triangle:
+        # print()
         print('  ' * spacing, end=' ')
         for value in row:
             print("{:^3}".format(value), end='  ')
